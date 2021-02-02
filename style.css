@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1500px;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  background-color: rgb(224, 213, 226);
+  padding: 5px;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 50px 50px;
+}
+
+h1 {
+  color: rgba(35, 0, 67, 0.659);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: auto;
+}
+
+h3 {
+  background-color: rgb(224, 213, 226);
+  padding: 8px;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 13px;
+  margin: 0px;
+  font-weight: lighter;
+}
+
+#reach {
+  margin-bottom: 5px;
+}
+
+#contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.date {
+  font-size: 15px;
+  margin-top: 1px;
+}
